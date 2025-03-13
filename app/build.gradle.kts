@@ -51,6 +51,7 @@ dependencies {
 	implementation(libs.androidx.material3)
 	implementation(libs.play.services.mlkit.document.scanner)
 	implementation(libs.coil.compose)
+	implementation(libs.coil.compose.network)
 
 	testImplementation(libs.junit)
 	androidTestImplementation(libs.androidx.junit)
