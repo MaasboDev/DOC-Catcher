@@ -13,7 +13,7 @@ android {
 		minSdk = 24
 		targetSdk = 35
 		versionCode = 1
-		versionName = "1.0"
+		versionName = "0.0.0"
 
 		testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 	}
@@ -49,10 +49,8 @@ dependencies {
 	implementation(libs.androidx.ui.graphics)
 	implementation(libs.androidx.ui.tooling.preview)
 	implementation(libs.androidx.material3)
-	implementation(libs.dynamsoftcapturevisionrouter)
-	implementation(libs.dynamsoftdocumentnormalizer)
-	implementation(libs.dynamsoftcameraenhancer)
-	implementation(libs.dynamsoftutility)
+	implementation(libs.play.services.mlkit.document.scanner)
+	implementation(libs.coil.compose)
 
 	testImplementation(libs.junit)
 	androidTestImplementation(libs.androidx.junit)
